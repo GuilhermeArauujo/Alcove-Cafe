@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alcove Cafe | Melbourne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="tabs.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <h1>ALCOVE CAFE</h1>
+        <p class="site-subtitle">South Melbourne</p>
+      </div>
+
+      <div class="tabs-topbar" role="tablist" aria-label="Alcove Cafe Information Tabs">
+        <button class="tab-btn active" data-tab="menu" role="tab" aria-selected="true">Menu</button>
+        <button class="tab-btn" data-tab="book" role="tab" aria-selected="false">Book Now</button>
+        <button class="tab-btn" data-tab="about" role="tab" aria-selected="false">About Us</button>
+        <button class="tab-btn" data-tab="contact" role="tab" aria-selected="false">Contact Us</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="kicker">Brunch · Coffee · Community</p>
+        <h2>Modern cafe dining in South Melbourne.</h2>
+        <p>
+          Alcove Cafe is a relaxed neighbourhood destination for specialty coffee, all-day brunch favourites, and warm service.
+        </p>
+      </div>
+    </section>
+
+    <main>
+      <section class="tabs-section">
+        <article class="tab-panel active" id="menu" role="tabpanel">
+          <h3>Menu</h3>
+          <p>Our kitchen serves modern cafe classics with seasonal produce and balanced flavours.</p>
+          <div class="info-grid">
+            <div class="info-card">
+              <h4>Breakfast Highlights</h4>
+              <ul>
+                <li>Ricotta hotcakes with fruit and maple mascarpone</li>
+                <li>Chilli scrambled eggs on artisan sourdough</li>
+                <li>Avocado toast with whipped feta and herbs</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>Coffee & Drinks</h4>
+              <ul>
+                <li>Espresso, batch brew, and cold brew coffee</li>
+                <li>House iced drinks and seasonal specials</li>
+                <li>Fresh juices and non-coffee alternatives</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="tab-panel" id="book" role="tabpanel">
+          <h3>Book Now</h3>
+          <p>We welcome walk-ins and bookings. For best availability on weekends, reserve ahead.</p>
+          <div class="info-grid single">
+            <div class="info-card">
+              <h4>Booking Information</h4>
+              <p><strong>Trading Hours:</strong> Monday to Sunday, 7:00 AM – 4:00 PM</p>
+              <p><strong>Group Bookings:</strong> Please contact the team at least 24 hours in advance.</p>
+              <p><strong>Special Requests:</strong> Let us know about dietary requirements when booking.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="tab-panel" id="about" role="tabpanel">
+          <h3>About Us</h3>
+          <p>
+            Alcove Cafe was created as a local gathering space where quality coffee, thoughtful food, and friendly hospitality come together.
+          </p>
+          <p>
+            Our team focuses on consistency and care—from morning espresso rushes to long weekend brunches.
+          </p>
+        </article>
+
+        <article class="tab-panel" id="contact" role="tabpanel">
+          <h3>Contact Us</h3>
+          <div class="info-grid">
+            <div class="info-card">
+              <h4>Visit</h4>
+              <p>South Melbourne, Victoria</p>
+              <p>Open daily for dine-in and takeaway.</p>
+            </div>
+            <div class="info-card">
+              <h4>Get in Touch</h4>
+              <p>Email: hello@alcovecafe.com.au</p>
+              <p>Instagram: @alcove_cafe</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
