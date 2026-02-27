@@ -1,6 +1,6 @@
 # Alcove Cafe Website + LAN Chess
 
-A modern website for **Alcove Cafe** with primary information tabs and a separate **2-player LAN chess** page.
+A modern website for **Alcove Cafe** with primary information tabs.
 
 ## Website structure
 
@@ -11,3 +11,4 @@ A modern website for **Alcove Cafe** with primary information tabs and a separat
 - Node.js built-in HTTP server
 
 - Vanilla HTML/CSS/JS
+
